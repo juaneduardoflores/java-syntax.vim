@@ -6,7 +6,7 @@ sy match  javaType          '\v<\$*\u%(\w|\$)*>'
 sy match  javaConstant      '\v<%(\u|[_\$])%(\u|\d|[_\$])*>'
 "---------------------------------------------------------------------------------------------------
 sy match  javaComment       '//.*'                  contains=@javaTodos
-sy region javaComment       start='/\*' end='\*/'   contains=@javaTodos
+sy region javaBlockComment       start='/\*' end='\*/'   contains=@javaTodos
 "---------------------------------------------------------------------------------------------------
 sy match  javaString        '\v"%([^\\"]|\\.)*"'
 sy region javaString        start='"""\s*$' end='"""'
