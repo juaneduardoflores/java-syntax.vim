@@ -1,5 +1,6 @@
 "-------------------------------------------------
 hi def link javaComment         Comment
+hi def link javaBlockComment    BlockComment
 "-------------------------------------------------
 hi def link javaConstant        Constant
 hi def link javaString          String
